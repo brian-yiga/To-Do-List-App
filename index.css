@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.todoheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e1c4be;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #655755;
+}
+
+.todoheader__image {
+    width: 70px;
+}
+
+.taskContent {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #efeeed;
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    box-shadow: 0 1rem 3rem 1rem rgba(0, 23, 71, 0.15, green, blue, alpha);
+    height: 60vh;
+}
+
+#btn {
+    width: 40%;
+    margin: 5px auto;
+    font-size: 25px;
+    border: none;
+    background-color: #cd8843;
+    height: 50px;
+    border-radius: 5px;
+    color: #e1c4be;
+}
+
+.inputfield {
+    width: 80%;
+    margin: 0 auto;
+    padding: 12.5px 5px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+.deletebutton {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 0px 30px;
+}
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: #655755;
+    display: flex;
+    justify-content: center;
+}
+
+#tasklist {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    padding: 20px;
+
+}
